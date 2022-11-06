@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  background-color: #f8f8ff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+  padding: 6px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-bottom: 2rem;
+  box-shadow: 0 0 8px;
+}
+
+.hexColor {
+  font: bold;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2.5rem;
+  color: lightblue;
+}
+
+.simpleHex {
+  display: flex;
+}
+
+.header h3 {
+  color: darkslateblue;
+}
+
+.simpleHex li {
+  margin-left: 1rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: dimgrey;
+}
+
+.main {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main h1 {
+  color: white;
+  background-color: black;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 5px;
+}
+
+button {
+  color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 5px;
+  background: black;
+  cursor: pointer;
+  font-size: x-large;
+  outline: none;
+}
+
+button:hover {
+  background: white;
+  color: black;
+}
